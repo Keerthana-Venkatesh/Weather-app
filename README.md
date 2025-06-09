@@ -29,6 +29,6 @@ To run this project locally:
    
 ## Preview
 
-![App Screenshot](Screenshot1.png)
-![App Screenshot](Screenshot2.png)
+![App Screenshot](Screenshot1.PNG)
+![App Screenshot](Screenshot2.PNG)
   
