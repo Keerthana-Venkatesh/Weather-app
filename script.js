@@ -1,4 +1,4 @@
-const apiKey = process.env.apiKey;
+const apiKey = "545afa2b24cbeb8ec5092434b8074104";
 const inputContainer = document.getElementById("input-container");
 const cityInput = document.getElementById("city");
 const getWeatherBtn = document.getElementById("get-weather-btn");
