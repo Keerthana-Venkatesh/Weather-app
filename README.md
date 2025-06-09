@@ -23,7 +23,7 @@ To run this project locally:
 1. *Clone the repository*  
    git clone https://github.com/Keerthana-Venkatesh/Weather-app.git
 2. *Navigate to the project folder*  
-   cd Weather-app    
+   cd Weather-app
 3.*Open index.html*  
     double click index.html  
    
