@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(rgba(0, 0, 30, 0.6), rgba(0, 0, 30, 0.6)),
+    url('https://wallpaperaccess.com/full/1540016.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #eee;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#app-container {
+  background: rgba(0, 0, 30, 0.75);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 70, 0.7);
+  max-width: 470px;
+  width: 100%;
+  padding: 25px 30px 35px;
+  text-align: center;
+}
+
+#logo {
+  width: 100px;
+  margin-bottom: 20px;
+  filter: drop-shadow(0 0 3px #0008);
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-shadow: 1px 1px 4px #000a;
+}
+
+#input-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+input#city {
+  flex: 1;
+  padding: 12px 15px;
+  border-radius: 25px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+input#city:focus {
+  box-shadow: 0 0 8px 2px #66ccff;
+}
+
+button {
+  background-color: #4da6ff;
+  border: none;
+  color: white;
+  padding: 12px 22px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(77, 166, 255, 0.5);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #3399ff;
+  box-shadow: 0 6px 14px rgba(51, 153, 255, 0.7);
+}
+
+#back-btn {
+  margin-bottom: 15px;
+  background-color: transparent;
+  color: #88bbff;
+  border: 2px solid #88bbff;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  box-shadow: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#back-btn:hover {
+  background-color: #88bbff;
+  color: #002244;
+  border-color: #6699ff;
+  box-shadow: 0 0 8px #88bbffaa;
+}
+
+#weather-result h2 {
+  margin-top: 0;
+  font-weight: 700;
+  text-shadow: 1px 1px 4px #0008;
+}
+
+#weather-result img {
+  width: 100px;
+  height: 100px;
+  filter: drop-shadow(0 0 2px #0009);
+}
+
+#weather-result p {
+  margin: 6px 0;
+  font-size: 16px;
+  text-shadow: 1px 1px 3px #0008;
+}
+
+#weather-result strong {
+  text-transform: capitalize;
+  color: #bbddff;
+}
+
+#forecast {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  gap: 8px;
+}
+
+.forecast-day {
+  flex: 1 1 80px;
+  max-width: 80px;
+  background: rgba(100, 150, 255, 0.25);
+  border-radius: 12px;
+  padding: 10px 0;
+  box-shadow: 0 0 10px rgba(70, 120, 255, 0.5);
+  color: #ddf;
+  font-weight: 600;
+  font-size: 14px;
+  text-shadow: 0 0 5px #0008;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forecast-day img {
+  width: 50px;
+  height: 50px;
+  filter: drop-shadow(0 0 2px #000a);
+  margin: 8px 0;
+}
