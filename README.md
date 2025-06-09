@@ -20,11 +20,11 @@ A simple and responsive weather app built using HTML, CSS, and JavaScript. It al
 
 To run this project locally:
 
-step 1:Clone the repository  
+step 1: Clone the repository   
    git clone https://github.com/Keerthana-Venkatesh/Weather-app.git<br>
-step 2:Navigate to the project folder   
+step 2: Navigate to the project folder     
    cd Weather-app<br>
-step 3:Open index.html   
+step 3: Open index.html     
     double click index.html
    
 ## Preview
