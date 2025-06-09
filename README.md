@@ -31,4 +31,7 @@ To run this project locally:
 
 ![App Screenshot](Screenshot1.PNG)
 ![App Screenshot](Screenshot2.PNG)
-  
+
+## Live Demo 
+
+[Click here to view the Weather App](https://Keerthana-Venkatesh.github.io/Weather-app/)
