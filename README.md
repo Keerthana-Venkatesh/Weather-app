@@ -25,9 +25,10 @@ To run this project locally:
 2. *Navigate to the project folder*
    cd Weather-app
 3.*Open index.html*
-
+    double click index.html
+   
 ## Preview
 
 ![App Screenshot](screenshot1.png)
 ![App Screenshot](screenshot2.png)
-   double click index.html
+  
